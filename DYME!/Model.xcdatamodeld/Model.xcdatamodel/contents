@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CartItem" representedClassName="CartItem" syncable="YES">
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="itemDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoinManager" representedClassName="CoinManager" syncable="YES">
+        <attribute name="coins" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Results" representedClassName="Results" syncable="YES">
+        <attribute name="goal" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="result" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="resultDate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ShopItem" representedClassName="ShopItem" syncable="YES">
+        <attribute name="explanation" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="StatsDate" representedClassName="StatsDate" syncable="YES">
+        <attribute name="prevDate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TimeSpent" representedClassName="TimeSpent" syncable="YES">
+        <attribute name="timeSpent" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TodayGoal" representedClassName="TodayGoal" syncable="YES">
+        <attribute name="goal" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="CartItem" positionX="-18" positionY="54" width="128" height="74"/>
+        <element name="CoinManager" positionX="-36" positionY="9" width="128" height="44"/>
+        <element name="Results" positionX="0" positionY="72" width="128" height="74"/>
+        <element name="ShopItem" positionX="0" positionY="54" width="128" height="74"/>
+        <element name="StatsDate" positionX="-9" positionY="63" width="128" height="44"/>
+        <element name="TimeSpent" positionX="-18" positionY="63" width="128" height="44"/>
+        <element name="TodayGoal" positionX="-9" positionY="72" width="128" height="44"/>
+    </elements>
+</model>
